@@ -5,7 +5,7 @@ wordpress code will be cloned by the bash script and domain name is replaced wit
 to generate ssl certificates using certbot.
 
 It should be kept in mind that when you start the compose first time you should comment out 443
-block in default.conf and redirect 301/302 redirect block also so that certificated can be generated for the first time,
+block in default.conf and 301/302 block also so that the certificates can be generated for the first time,
 
 and then you can uncomment those 443 server blocks once the certificates are generated at required volume.
 
