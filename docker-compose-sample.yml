@@ -3,6 +3,7 @@ version: "3.8"
 services:
   nginx:
     image: nginx:stable-alpine
+    container_name:nginx-stable-alpine-1
     ports:
       - 80:80
       - 443:443
