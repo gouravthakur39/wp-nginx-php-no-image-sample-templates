@@ -9,4 +9,4 @@ block in default.conf and 301/302 block also so that the certificates can be gen
 
 and then you can uncomment those 443 server blocks once the certificates are generated at required volume.
 
-bash script link is not available here. will be updated once I finish writing it.
+bash script can be found at ->>> https://github.com/gouravthakur39/generate-wp-bash-script
